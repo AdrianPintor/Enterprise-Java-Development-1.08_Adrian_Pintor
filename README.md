@@ -67,7 +67,8 @@ Una vez que termines la tarea, envía un enlace URL a tu repositorio o tu solici
 2. Crea dos implementaciones de `IntList`: `IntArrayList` y `IntVector`.
 3. `IntArrayList` debe almacenar números en un array con una longitud de 10 por defecto. Cuando se llama al método `add`, primero debes determinar si el array está lleno. Si lo está, crea un nuevo array que sea el 50% más grande, mueve todos los elementos al nuevo array y agregue el nuevo elemento. (Por ejemplo, un array de longitud 10 aumentaría a 15).
 4. `IntVector` debe almacenar números en un arreglo con una longitud de 20 por defecto. Cuando se llama al método `add`, primero debes determinar si el array está lleno. Si lo está, crea un nuevo array que sea el doble del tamaño del array actual, mueve todos los elementos al nuevo array y agrega el nuevo elemento. (Por ejemplo, un array de longitud 10 aumentaría a 20).
-5. En su `README.md`, incluye un ejemplo de cuándo `IntArrayList` sería más eficiente y cuándo `IntVector` sería más eficiente.
+5. En su `README.md`, incluye un ejemplo de cuándo `IntArrayList` sería más eficiente y cuándo `IntVector` sería más eficiente. 
+ANSWER : Seria más eficiente usar para listas pequeñas y con poca frecuencia de cambio de datos (Como p.e. en listas con nombre, edad) usar 'IntArrayList', y para listas más grandes y con mayor frecuencia de datos (p.e. transacciones bancarias) usar 'IntVector' ya que esta tiene un aumento exponencial.
 
 <br>
 
@@ -247,7 +248,7 @@ Una vez que termines la tarea, envía un enlace URL a tu repositorio o tu solici
 <details>
   <summary style="font-size: 16px; cursor: pointer; outline: none; font-weight: bold;">¿Cómo implemento una interfaz en Java?</summary>
 
-  <!-- ✅ -->
+<!-- ✅ -->
 
   En Java, una interfaz es un plano que describe los métodos que una clase debe implementar. Para implementar una interfaz, es necesario crear una clase que implemente la interfaz y proporcione una implementación para cada uno de sus métodos.
 
